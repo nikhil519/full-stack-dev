@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+
+  <html>
+
+    <head>
+      <style>
+           .form-input{
+            padding: 1px;
+            margin: 2px;
+            border: 10px;
+           }
+               h2{
+                color:green;
+              }
+
+        label{
+          width:100px;
+          display:inline-block;
+        }
+      </style>
+      
+               <title >Registration Form</title>
+        
+    </head>
+    <body>
+      <fieldset>
+      <h2><u><legend>STUDENT REGISTRATION FORM</legend></u></h2>
+      
+        <div style="border: 2px solid balck;">
+            <form name="registrationform" action="signup.html" method="get">
+             <div class="form-input"> 
+              <label>Full Name &nbsp;: </label>
+              <input type="text" name="name" value="" placeholder="Enter your name" >
+            <br><br>
+             </div>
+
+            <div class="form-input"> 
+              <label>User Name  :</label>
+              <input type="text" name="name" value="" placeholder="Enter your username" >
+              <br><br>
+            </div>
+            
+            <div class="form-input">
+               
+              
+              <label>Email ID &nbsp;  :</label>
+              <input type="email" name="email" value="" placeholder="Enter your email" required>
+            <br><br>
+            </div>
+            
+            <div class="form-input">
+              <label>Password &nbsp; :</label>
+              <input type="Password" name="password" value="" placeholder="Enter your Password">
+            <br><br>
+
+            </div>
+             
+             <div class="form-input">
+              <label>Confirm Password &nbsp;:</label>
+              <input type="CPassword" name="Cpassword" value="" placeholder="Confirm your Password">
+            <br><br>
+
+             </div> 
+
+             <div class="form-input">
+
+              <label>Mobile Number &nbsp; :</label>
+              <input type="number" name="number" value="" maxlength="10" />(10 digit number)
+            <br><br>
+             </div>
+            <div class="form-input">
+             <label>Gender &nbsp;:</label>
+             <label>Male</label>
+             <input type="radio" name="gender"/>
+             <label>Female</label>
+             <input type="radio" name="gender"/>
+             <label>others</label>
+            <input type="radio" name="gender"/>
+            <br><br>
+                  
+                 <div>
+
+                    <label>Address :</label>
+                    <textarea rows="10" col="20"></textarea> 
+                    <br><br> 
+                 </div>
+                 <div>
+                      <label>city  &nbsp;:</label>
+                      <input type="city" name="city" value=""/>
+                      <br><br>
+                 </div>
+
+                 <div>
+                      <label>Pin Code &nbsp;:</label>
+                      <input type="code" name="code" value=""/>
+                      <br><br>
+                 </div>
+            
+                <div class="form-input">
+                            <label>Country &nbsp;:</label>
+                             <select name="country">
+
+                             <option>India</option>
+                             <option>USA</option>
+                             <option>Aus</option>
+                             <option>Canada</option>
+                             <option>Russia</option>
+                             <option>China</option>
+                    
+                    
+                        </select>
+                        <br><br>
+                </div>
+                <div>
+                     <label>Courses:</label>
+                      <select name="course">
+
+                        <option>BCA</option>
+                        <option>B.Com</option>
+                        <option>B.Sc</option>
+                        <option>B.A</option>
+                    
+                    </select>                   
+                     
+                </div>
+
+             <br>
+             
+             <input type="submit" name="register" />      
+              </div>
+
+            </fi  qeldset>
+
+
+             
+            </form>
+        </div>
+        
+    </body>
+    
+  </html>
+  
