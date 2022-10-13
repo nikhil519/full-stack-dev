@@ -2,15 +2,15 @@
 
 
 *{
-    margin: 5px;;
+    margin: 5px;
     padding: 5px;
 }
 body{
-    background:#000000
+    background:#000000;
     font-family:'poppins', sans-serif;
     align-items:center;
     justify-content:center;
-    dispaly:flex;
+    display:flex;
 }
 .cover{
     width: 500px;
